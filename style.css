@@ -1,0 +1,28 @@
+body {
+     display: grid;
+     place-content: center;
+     gap: 20px;
+   }
+   
+   .circle {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 150px;
+     border-radius: 50%;
+     background-color: black;
+     width: 150px;
+     height: 150px;
+   }
+   
+   .square{
+       width: 50%;
+       height: 50%;
+       background-color: white;
+   }
+   .triangle{
+     width: 0;
+     height: 0;
+     border-bottom: 80px solid red;
+     border-right: 80px solid transparent;
+   }
